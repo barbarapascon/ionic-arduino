@@ -1,17 +1,46 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Contact
+      Informações da sua uva
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+  <ion-card>
+  <img src="assets/icon/uvas.jpg"/>
+  <ion-card-content>
+    <ion-card-title>
+      Especie da uva
+      </ion-card-title>
+    <p>
+      esta uva é propria da região de são Paulo,
+       possui um sabor doce e caracyeristico de sua Especie
+    </p>
+    <ion-range [(ngModel)]="brightness">
+    <ion-icon range-left small name="sunny"></ion-icon>
+    <ion-icon range-right name="sunny"></ion-icon>
+  </ion-range>
+
+  <ion-range [(ngModel)]="brightness">
+    <ion-icon range-left small name="sunny"></ion-icon>
+    <ion-icon range-right name="sunny"></ion-icon>
+  </ion-range>
+
+  <ion-range [(ngModel)]="brightness">
+    <ion-icon range-left small name="sunny"></ion-icon>
+    <ion-icon range-right name="sunny"></ion-icon>
+  </ion-range>
+
+  <ion-range [(ngModel)]="brightness">
+    <ion-icon range-left small name="sunny"></ion-icon>
+    <ion-icon range-right name="sunny"></ion-icon>
+  </ion-range>
+
+  <ion-range [(ngModel)]="brightness">
+    <ion-icon range-left small name="sunny"></ion-icon>
+    <ion-icon range-right name="sunny"></ion-icon>
+  </ion-range>
+  </ion-card-content>
+</ion-card>
 </ion-content>
